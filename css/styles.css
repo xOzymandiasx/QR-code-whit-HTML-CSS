@@ -28,7 +28,8 @@ html {
 
 .qrContainer {
   height: 70%;
-  width: 22%;
+  padding: 0.1%;
+  max-width: 20rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -36,6 +37,7 @@ html {
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(212, 45%, 89%);
   border-radius: 30px;
+  margin: 0.5rem;
 }
 
 .imgContainer {
@@ -44,19 +46,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.titleContainer,
-.textContainer {
-  height: 15%;
-  width: 89%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.textContainer {
-  margin-bottom: 7%;
 }
 
 h1 {
@@ -69,11 +58,12 @@ p {
   color: hsl(220, 15%, 55%);
   text-align: center;
   font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 img {
   width: 90%;
-  height: 90%;
+  height: 63%;
   border-radius: 30px;
 }
 
